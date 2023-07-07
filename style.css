@@ -17,6 +17,11 @@ h3{
     font-size: 2.25rem;
     color: hsl(210, 10%, 33%);
 }
+.header{
+    background-image: url('./images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .btn-ios{
     background-color: hsl(171, 66%, 44%);
     color:white;
@@ -38,4 +43,10 @@ h3{
 }
 .footer{
     background-color: hsl(200, 7%, 92%);
+}
+@media (max-width:800px) {
+    .header{
+        background: no-repeat cover url('./images/bg-header-mobile.png') ;
+    }
+    
 }
